@@ -5,7 +5,15 @@ export default function MainPage(){
     let id = 0;
     return (
         <div className={classes.conatainer}>
-            <p>Pokemons List</p>
+            <div>
+                <div className={classes.container_header}>
+                    <p>Pokemons List</p>
+                    <div className={classes.search}>   
+                        <input className={classes.input_style} placeholder="filter the pokemon's list by ID" /> 
+                    </div>
+
+                </div>
+            </div>
         <div className={classes.card_container}>
             {arr.map(el => (<PokeCard key={id++}/>))}
         </div>

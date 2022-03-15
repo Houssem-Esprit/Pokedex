@@ -9,7 +9,9 @@
     padding: 10px;
 }
 
-
+.card:hover {
+    cursor: pointer;
+}
 .img {
     width: 200px;
 }
