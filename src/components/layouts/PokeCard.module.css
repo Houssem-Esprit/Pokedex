@@ -1,0 +1,21 @@
+
+.card{
+    width: 350px;
+    min-height: 180px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.img {
+    width: 200px;
+}
+
+h1,h2,h3,h4{
+    color: white;
+    font-family: Pokemon;
+    margin: 0;
+}
